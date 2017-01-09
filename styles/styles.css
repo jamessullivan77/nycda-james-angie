@@ -9,27 +9,117 @@
 }
 
 body{
-
+    background-image: url(../imgs/mooning.png);
+    box-sizing: border-box;
+    font-size: 62.5%;
 }
 
 /*Main body setup*/
 #main{
-    margin: 0 auto;
-    width: 80%;
-    height: 20px;
-    background-color: aqua;
+    margin: 4em auto;
+    width: 60%;
+    height: 80em;
+    background-color: white;
+    padding-top: 4em;
 
 }
 
 /*Banner setup*/
 .banner{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4.5em;
+    background-color: #4e1b66;
+    box-shadow: 0em 0.5em 1em grey;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.banner li{
+    display: inline;
+    float: right;
+    position: relative;
+    top: -2.55em;
+    margin-right: 1em;
+    font-size: 2em;
+    background-color: #974eba;
+    padding: 0.3em;
+    border: 0.01em solid #250d30;
+    border-radius: 5%;
 
 }
 
+.learn li:hover{
+    background-color: darkorange;
+}
+
+.Logo{
+    height: 4em;
+    margin: 0.3em 0 0 0.3em;
+}
+
+
+
+/*
+.filler{
+    height: 7em;
+    float: none;
+}
+*/
+
+
+/*Beginning Title and Location setup*/
+.begin{
+    text-align: center;
+}
+
+.btitle h1{
+    font-family: Arial;
+    margin: 0;
+    font-size: 3.5em;
+}
+
+.blocation{
+    font-size: 2em;
+
+}
+
+.citystate{
+    font-family: arial;
+    margin-bottom: 1em;
+    border-bottom: 0.01em solid silver;
+}
+.group{
+    margin: 0 1em;
+}
 /*videoshare setup*/
 
+.centering{
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+#videoshare{
+    float: left;
+}
+
+iframe{
 
 
+}
+
+#videoshare p{
+    font-size: 2em;
+    width: 60%;
+/*    margin-left: 1em;*/
+}
 
 /*Social media setup*/
 
@@ -37,7 +127,65 @@ body{
 
 
 /*donation setup*/
+#donations{
 
+}
+
+.customers{
+    width: 30em;
+    height: 38em;
+    float: right;
+    position: relative;
+    bottom: 61em;
+}
+
+.customers li{
+    font-family: arial;
+    font-size: 3em;
+    height: 3em;
+    position: relative;
+    top: 0.8em;
+}
+
+h2{
+    margin: 0;
+}
+
+.customers p{
+    margin: 0;
+}
 
 
 /*donation button setup*/
+.donate{
+    width: 25em;
+    height: 8em;
+    float: right;
+    position: relative;
+    bottom: 33em;
+    left: 26em;
+
+}
+
+.donate p:hover{
+    background-color: #61e27b;
+    box-shadow: none;
+    border-bottom: 0.01em groove #79f792;
+    border-right: 0.01em groove #79f792;
+    border-top: 0.01em groove #30ba4b;
+    border-left: 0.01em groove #30ba4b;
+    text-shadow: 0.02em 0.02em 0.05em #30ba4b;
+}
+
+.donate p{
+    font-family: arial;
+    color: white;
+    padding: 0.1em;
+    font-size: 5em;
+    text-align: center;
+    background-color: #3ac456;
+    border-radius: 0.3em;
+    border: 0.01em solid #36602d;
+    text-shadow: 0.02em 0.02em 0.05em #36602d;
+    box-shadow: 0.02em 0.02em 0.05em #36602d;
+}
